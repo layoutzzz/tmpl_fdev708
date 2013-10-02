@@ -1,0 +1,120 @@
+@import url(../../base/css/general.css);
+
+a img, img
+{
+	border:none;
+}
+
+div.main
+{
+	position:relative;
+	margin:0 auto;
+	background-color:#fffdea;
+	padding:0 5px;
+	padding-bottom:30px;
+}
+div.sys_main_logo
+{
+	background-color:#fffdea;
+}
+div.content
+{
+	margin-top:10px;
+}
+
+div.search_filled_block 
+{
+	background-color:#FFFDEA;
+}
+
+div.top_settings_block
+{
+	background-color:#dfd2b9;
+	color:#92856B;
+}
+
+/* Extra top menu */
+
+div.extra_top_menu table.fixed_menu 
+{
+	border: 1px solid #69665b;
+}
+
+div.extra_top_menu table.fixed_menu td
+{
+	border-top:none;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.devider img
+{
+	width:1px;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.menu_item_active 
+{
+	background-color:#fffdea;
+	border-right:1px solid #69665b;
+	border-left:1px solid #69665b;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html table.popup{
+	border-left:1px solid #69665b;
+	border-right:1px solid #69665b;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html  div.extra_data
+{
+	background-color:#dfd2b9;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html  div.top_cover
+{
+	border-top:1px solid #69665b;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html  div.bottom_cover
+{
+	border-bottom:1px solid #B7B7B7;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html div.control
+{
+	background-color:#f6efd6;
+	color:#3333CC;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html div.content
+{
+	color:#666666;
+}
+
+div.extra_top_menu table.fixed_menu div.bottom_indent
+{
+
+}
+
+div.extra_top_menu table.fixed_menu div.simple_messenger_chat_block div.messages_history div.sender_info
+{
+	background-color:#dfd2b9;
+}
+
+div.extra_top_menu table.fixed_menu div.simple_messenger_chat_block
+{
+	border-left: 1px solid #69665b;
+}
+div.extra_top_menu table.fixed_menu  div.active_chat_block
+{
+	background-color:#fffdea;
+}
+/* End extra top menu */
+
+
+
+div.main_footer_block
+ {
+	border:none !important;
+	background:none !important;
+}
+.bottomCopyright
+{
+	border:none;
+	background-color:transparent;
+}

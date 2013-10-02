@@ -1,0 +1,189 @@
+@import url(../../base/css/common.css);
+
+body
+{
+	margin:0;
+	padding:0;
+	color:#464032;
+	background: #fffdea;
+	font-family:Arial,Helvetica,Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.clear_both
+{
+	clear:both;
+	font-size:0px;
+	height:0px;
+}
+
+/* * * * DesignBox * * * */
+.disignBoxFirst
+{
+	border:none;
+	background:none;
+}
+.boxFirstHeader
+{
+	background:#e9e3cb;
+	border:none;
+	color:#464032;
+}
+.dbTitle
+{
+}
+.boxContent
+{
+	background-color:#F6EFD6;
+}
+/* * * * End DesignBox * * * */
+
+.dbTopMenu div.active 
+{
+	background:none;
+}
+.dbTopMenu .active span
+{
+	background:none;
+}
+.dbTopMenu div a, .dbTopMenu div a:link, .dbTopMenu div a:hover, .dbTopMenu div a:active, .dbTopMenu div a:visited 
+{
+	color: #A7430F;
+}
+
+.dbTopMenu div a:link, .dbTopMenu div a:visited 
+{
+	text-decoration:underline;
+}
+.dbTopMenu div a:hover, .dbTopMenu div a:active
+{
+	text-decoration:none;
+}
+
+.TransBox .msgbox_content
+{
+	padding:5px;
+}
+div.thumbnail_image, div.thumbnail_image_couple, .sys_file_search_pic, .sys_album
+{
+	border:1px solid #605b4e;
+	background-color:#fbf6e7;
+}
+
+.MsgBox .msgbox_left_side, .MsgBox .msgbox_right_side, .MsgBox .msgbox_top_side, .MsgBox .msgbox_bottom_side 
+{
+	background-image:url('../images/msgbox_bd.gif');
+	background-color:#fffdea;
+	font-size:0px;
+}
+.MsgBox .msgbox_content
+{
+	background-color:#fffdea;
+}
+.MsgBox .msgbox_text
+{
+	color:#767368;
+}
+
+div.paginate
+{
+	background-color:#DFD2B9;
+}
+
+div.dbTmLeft
+{
+	background-image:url('../images/dbTmLeft.gif');
+}
+div.dbTmRight
+{
+	background-image:url('../images/dbTmRight.gif');
+}
+.layoutzzz
+{
+	width:11px;
+	height:164px;
+	position:absolute;
+	bottom:70px;
+	right:-20px;
+	background: url('../images/layoutzzz.png') top left no-repeat;
+}
+div.pollAnswerBlock div.pollResultRow 
+{
+	background-image: url('../images/poll_res_fill.png');
+}
+
+div.disignBoxFirst div.boxContent div.poll_block div.poll_section div.pollAnswerBlock table td.poll
+{
+	background-color:#fffdea;
+}
+
+div.disignBoxFirst div.boxContent div.poll_info div.owner_info
+{
+	color:#787878;
+}
+
+div.disignBoxFirst div.boxContent div.poll_info div.owner_info a:link, div.disignBoxFirst div.boxContent div.poll_info div.owner_info a:visited,
+div.disignBoxFirst div.boxContent div.poll_info div.owner_info a:hover, div.disignBoxFirst div.boxContent div.poll_info div.owner_info a:active
+{
+	color:#A7430F;
+}
+div.disignBoxFirst div.boxContent div.shoutbox_wrapper
+{
+	background-color:#fffdea;
+	border:1px solid #605b4e;
+}
+
+div.disignBoxFirst div.boxContent .blog_unit .fr_small_gray_centered 
+{
+	color:#787878;
+}
+div.disignBoxFirst div.boxContent div.message_block span
+{
+	color:#787878;
+}
+.sys_file_search_when
+{
+	color:#787878;
+}
+.dbBottomMenu
+{
+	background:#DFD2B9;
+}
+div.disignBoxFirst div.boxContent .ads_Pic
+{
+	border:1px solid #605B4E;
+}
+.votes_active_big
+{
+	background-image:url('../images/vote_star_active_32.png'); 
+}
+.votes_active_small
+{
+	background-image:url('../images/vote_star_active_16.png'); 
+}
+
+div.disignBoxFirst div.boxContent div.wall-divider, div.disignBoxFirst div.boxContent div.wall-divider-today 
+{
+	background-color:#DFD2B9;
+}
+div.disignBoxFirst div.boxContent div.wall-divider-nerrow
+{
+	background-color:#DFD2B9;
+} 
+.admin_actions_panel
+{
+	background-color:#B9C8DF;
+}
+div.disignBoxFirst div.boxContent div.news-entry
+{
+	background-color:#f6efd6;
+}
+div.freecsstmp
+{
+	text-align:right;
+	font-size:9px;
+}
+div.freecsstmp a, div.freecsstmp a:link, div.freecsstmp a:visited, div.freecsstmp a:hover, div.freecsstmp a:active
+{
+	padding-left:10px;
+}

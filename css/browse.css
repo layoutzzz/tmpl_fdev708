@@ -1,0 +1,23 @@
+@import url(../../base/css/browse.css);
+
+div.sub_design_box_head
+{
+	background-color:#69665B;
+	border-bottom: 1px solid #69665B;
+    border-left: 1px solid #69665B;
+    border-right: 1px solid #69665B;
+}
+div.caption_section
+{
+	color:#FFF;
+}
+div.sub_design_box_body
+{
+	border-bottom: 1px solid #69665B;
+    border-left: 1px solid #69665B;
+    border-right: 1px solid #69665B;
+}
+div.js_control_section
+{
+	 background-image: url("../images/icons/toggle.png");
+}

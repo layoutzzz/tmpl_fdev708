@@ -1,0 +1,24 @@
+@import url(../../base/css/anchor.css);
+
+a, a:link 
+{
+	color:#A7430F;
+}
+a:visited 
+{
+	color:#A7430F;
+}
+
+a:hover, a:active 
+{
+	color:#F3925F;
+}
+
+a, a:link, a:visited, a:active 
+{
+	text-decoration:none;
+}
+a:hover 
+{
+	text-decoration:underline;
+}

@@ -1,0 +1,22 @@
+@import url(../../base/css/calendar.css);
+
+.sys_cal_table th
+{
+	background-color:#69665B;
+	border:1px solid #69665B;
+	color:#FFF;
+}
+.sys_cal_cell_blank
+{
+	background-color:white;
+	border-color:#69665B;
+}
+.sys_cal_cell
+{
+	border:1px solid #69665B;
+	background-color:#FBF6E7;
+}
+.viewAllMembers
+{
+	font-weight:bold;
+}

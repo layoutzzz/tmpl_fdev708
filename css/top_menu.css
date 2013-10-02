@@ -1,0 +1,178 @@
+@import url(../../base/css/top_menu.css);
+
+
+div.sys_top_menu-left
+{
+	background:url('../images/sys_top_menu_left.gif') top left no-repeat;
+	min-height: 36px;
+}
+div.sys_top_menu-right
+{
+	background:url('../images/sys_top_menu_right.gif') top right no-repeat;
+	min-height: 36px;
+}
+div.sys_top_menu
+{
+	background:none;
+	background: url('../images/sys_top_menu_bg.gif') top left repeat-x;
+	margin:0 8px;
+	min-height: 36px;
+}
+
+.topMenu td
+{
+	height:36px;
+}
+
+.topMenu a, .topMenu a:link, .topMenu a:visited, .topMenu b
+{
+	background:none;
+	color:#FFF;
+	padding:0;
+	margin:0;
+}
+.topMenu a span.down, .topMenu b span.down 
+{
+	background: none;
+	background-color:#ad9a7a;
+	padding:0;
+	margin:0;
+}
+
+.topMenu td.top:hover a.top_link, .topMenu td.top:hover a.top_link:link, .topMenu td.top:hover a.top_link:visited, .topMenu td.top:hover a.top_link:active 
+{
+	background:none;
+	background-color:#E0D3B3;
+	padding:0;
+	margin:0;
+	color:#000;
+}
+.topMenu td.top:hover a span.down, .topMenu td.top:hover b span.down, .topMenu td.top a:hover a span.down, .topMenu td.top a:hover b span.down, .topMenu td#tm_active a span.down
+{
+	background:none;
+	padding:0;
+	margin:0;
+	background-color:#E0D3B3;
+	color:#000;
+}
+.topMenu td#tm_active a span.down
+{
+} 
+.topMenu .top ul.sub
+{
+	background:none;
+	background-color:#E0D3B3;
+}
+.topMenu ul.sub li:hover
+{
+	background:none;
+	background-color:#C6BB9F;
+}
+.topMenu ul.sub ul.more_sub li:hover
+{
+	background:none;
+	background-color:#A09781;
+} 
+.topMenu .top ul.sub .li_last_round
+{
+	background:none;
+}
+.topMenu ul.sub li a.button
+{
+	color:#FFF;
+}
+.topMenu .sub a.more_ntop_element:hover
+{
+	font-weight:bold;
+	color:#000;
+}
+.topMenu .sub a.more_ntop_element.active
+{
+	color:#000;
+}
+
+ul.sub li a.more_top_element:hover
+{
+	font-weight:bold;
+	color:#000;
+}
+.topMenu .top ul.sub .li_last_round:hover
+{
+	background:none;
+}
+.topMenu .more_right
+{
+	background:url('../images/icons/tm_sitem_right.gif');
+}
+.topMenu .more_down 
+{
+	background:url('../images/icons/tm_sitem_down.gif');
+}
+/******************************/
+.subMenu .subMenuContainer, .subMenu .subMenuContainerEmpty 
+{
+	background:none;
+	border-bottom:1px solid #ad9a7a;
+	height:auto;
+}
+
+.subMenu table a.sublinks, .subMenu table a.sublinks:link, .subMenu table a.sublinks:visited
+{
+	height:16px;
+}
+.subMenu table td.usual div, .subMenu table td.tabbed div
+{
+	line-height:1em;
+	height:auto;
+	font-size:12px;
+}
+.subMenu table td.tabbed 
+{
+	background: url('../images/arrow_sub_menu.gif') bottom center no-repeat;
+}
+.subMenu table a.sublinks, .subMenu table a.sublinks:link, .subMenu table a.sublinks:visited 
+{
+	
+}
+.subMenu table a.sublinks:hover, .subMenu table a.sublinks:active 
+{
+	background:none;
+	font-weight:bold;
+}
+.subMenu table td.usual:hover
+{
+	background: url('../images/arrow_sub_menu.gif') bottom center no-repeat;
+}
+/***********************************/
+.breadcrumb
+{
+	background:none;
+	border:1px solid #605b4e;
+	padding:0 10px;
+	margin:0;
+	font-size:11px;
+	color:#787878;
+}
+.breadcrumb a:link, .breadcrumb a:visited
+{
+	font-size:11px;
+} 
+.breadcrumb a:hover, .breadcrumb a:active
+{
+	font-size:11px;
+}
+.breadcrumb div.bc_open, .breadcrumb div.bc_close 
+{
+	left:auto;
+	right:auto;
+	width:auto;
+	height:auto;
+	background:none;
+}
+
+.breadcrumb a, .breadcrumb a:link, .breadcrumb a:visited, .breadcrumb a:hover, .breadcrumb a:active 
+{
+	color:#a7430f;
+	font-size:9px;
+	text-transform:capitalize;
+}
